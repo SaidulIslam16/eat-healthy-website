@@ -88,16 +88,33 @@ h2 {
 .recipies {
     display: flex;
     margin-top: 40px;
+    justify-content: space-between;
 }
 
 .recipie {
-    width: 50%;
+    width: 45%;
     padding: 20px;
-    margin: 0 20px;
     box-shadow: 10px 10px 40px gainsboro;
     border-radius: 40px;
 }
 
 .recipie img {
     width: 100%;
+}
+
+/* Social Proof Section */
+
+.big {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.social-proof {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px 10px 40px gainsboro;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 5%;
 }
