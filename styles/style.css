@@ -118,3 +118,19 @@ h2 {
     border-radius: 20px;
     margin: 5%;
 }
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #18191F;
+    padding: 50px 0;
+}
+
+footer p {
+    color: white;
+}
+
+footer h2 {
+    margin: 0;
+}
