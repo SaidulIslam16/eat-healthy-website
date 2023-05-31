@@ -16,7 +16,7 @@ h1 {
 
 .container {
     padding: 0 5%;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .hero-sect {
@@ -56,6 +56,7 @@ h1 {
 
 h2 {
     font-size: 50px;
+    color: gray;
 }
 
 .about-img {
@@ -73,4 +74,30 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+/* My Recipes Section */
+
+
+.section-title {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.recipies {
+    display: flex;
+    margin-top: 40px;
+}
+
+.recipie {
+    width: 50%;
+    padding: 20px;
+    margin: 0 20px;
+    box-shadow: 10px 10px 40px gainsboro;
+    border-radius: 40px;
+}
+
+.recipie img {
+    width: 100%;
 }
